@@ -1,6 +1,0 @@
-starlette
-uvicorn[standard]
-aiohttp
-ujson
-uvloop
-httptools
