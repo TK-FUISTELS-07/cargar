@@ -1,0 +1,18 @@
+{
+  "base_domain": "https://dintezuvio.com",
+  "local_url": "http://192.168.0.23:5002",
+  "port": "5002",
+  "server": {
+    "timeout_seconds": 15,
+    "max_idle_conns": 100,
+    "max_idle_conns_per_host": 10,
+    "idle_conn_timeout_seconds": 90,
+    "disable_compression": false,
+    "insecure_skip_verify": true
+  },
+  "stream_proxy": {
+    "m3u8_timeout_seconds": 30,
+    "mirror_stream_timeout": 0,
+    "disable_stream_compression": true
+  }
+}
